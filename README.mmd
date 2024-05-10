@@ -1,10 +1,32 @@
-<!-- markdownlint-disable MD033 -->
+# Importing libraries
 
-# Awesome Deep Learning Project Ideas
+import numpy as np
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+import pandas as pd
 
-A curated list of practical deep learning and machine learning project ideas
+from scipy.stats import mode
+
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+ sklearn.preprocessing import LabelEncod# dataset
+disease_df = pd.read_csv("framingham.csv")
+disease_df.drop(['education'], inplace = True, axis = 1)
+disease_df.rename(columns ={'male':'
+
+from sklearn.model_selection import train_test_split, cross_val_score
+
+from sklearn.svm import SVC
+
+from sklearn.naive_bayes import GaussianNB
+
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn.metrics import accuracy_score, confusion_matrix
+ 
+
+%matplotlib inline
 
 - 30+ ideas
 - Relevant to both the academia and industry
